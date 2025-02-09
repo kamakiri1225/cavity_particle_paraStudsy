@@ -1,0 +1,2 @@
+# cavity_particle_paraStudsy
+キャビティ流れから粒子追跡のパラメータスタディ
