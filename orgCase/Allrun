@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# cavityの計算
+cd 001_cavity
+./Allrun.icoFoam
+
+# 粒子追跡の計算
+cd ..
+cd 002_particle
+./Allrun.icoUncoupledKinematicParcelFoam

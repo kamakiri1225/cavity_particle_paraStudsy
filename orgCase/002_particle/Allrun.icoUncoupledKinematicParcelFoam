@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mapFields ../001_cavity -sourceTime 0.5 -consistent
+icoUncoupledKinematicParcelFoam
+foamToVTK
